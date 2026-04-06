@@ -1,0 +1,75 @@
+header{
+    margin: -8px;
+    background-color: rgb(24, 94, 185);
+    text-align: end;
+    padding: 15px;
+    margin-bottom: 60px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px
+}
+
+nav a:hover{
+    color: rgb(206, 133, 43);
+}
+
+.about{
+    margin-top: 100px;
+    display: flex;
+}
+
+.about img{
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.writeup{
+    margin-left: 60px;
+}
+
+.writeup button{
+    color:  #007BFF;
+    border: 2px solid #ccc;
+    background: white;
+    border-radius: 10px;
+}
+
+.about h2{
+    font-weight: bold;
+}
+
+.about p{
+    color: rgb(87, 86, 86);
+}
+
+.tl{
+    color: grey;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    background-color: #4da3ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+    font-size: 10px;
+}
+
